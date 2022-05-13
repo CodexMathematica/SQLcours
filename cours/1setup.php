@@ -10,6 +10,10 @@
 
 //* Setup -------------------------------------------------
 
+// Installation via WAMP Server qui contient un serveur apache, php et phpMyAdmin
+// WAMP doit être lancé pour accéder au gestionnaire de BDD (PHPMyAdmin) 
+//! user par defaut : root ; MDP:
+
 //! Principe : On envoie une requete textuelle vers une base de données
 //? Base de donnée = tables(tableaux) contenant des enregistrements(lignes) avec différents champs(colonnes) == tableau excel
 

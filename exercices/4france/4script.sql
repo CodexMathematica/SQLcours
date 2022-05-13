@@ -1,6 +1,6 @@
 --
 -- Structure de la table `cities`
---
+-- ( UNSIGNED = non négatif ; collate = jeu de caractére)
 
 CREATE TABLE `cities` (
   `id` int(10) UNSIGNED NOT NULL,
