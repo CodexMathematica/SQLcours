@@ -43,3 +43,43 @@
 //? SELECT nt.first_column FROM nom_table AS nt;
 
 
+//* JOINTURES --------------------------------------
+//Idée : Construire une requete qui tire avantage des relations entre les tables 
+//Source (https://sql.sh/cours/jointures)
+
+//! JOIN == INNER JOIN
+//? SELECT * FROM table_name JOIN another_table_name ON table_name.first_column=another_table_name.first_column;
+//? SELECT * FROM table_name INNER JOIN another_table_name ON table_name.first_column=another_table_name.first_column;
+
+//! LEFT JOIN
+// table_name est à gauche de l'expression 'LEFT JOIN' donc tous ses enregistrements apparaitront dans la selection
+//même si ils ne 'matchent' pas avec un enregistrement de la table à droite de l'expression 'LEFT JOIN'
+//? SELECT * FROM table_name LEFT JOIN another_table_name ON table_name.first_column=another_table_name.first_column;
+
+//! RIGHT JOIN
+// Même principe que le LEFT JOIN
+//? SELECT * FROM table_name RIGHT JOIN another_table_name ON table_name.first_column=another_table_name.first_column;
+
+//! OUTTER JOIN
+
+//* FONCTIONS d'aggrégation -------------------------------------------------
+// Principe : Applique une fonction sur la requete afin de retourné le resultat du traitement effectué par la fonction
+// Source (https://sql.sh/fonctions/agregation)
+
+//! AVG 
+//Retourne une seule ligne qui correspond à la moyenne des données de first_column
+//? SELECT AVG(first_column) FROM table_name;
+
+//! SUM 
+// Retourne une seule ligne qui correspond à la somme des données de first_column
+//? SELECT SUM(first_column) FROM table_name;
+
+
+
+
+
+
+
+
+
+
